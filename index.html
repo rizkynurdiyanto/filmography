@@ -185,13 +185,16 @@
     /* IMDb icon on hover */
     .imdb-hover {
       position: absolute;
-      bottom: 10px; left: 10px; z-index: 4;
+      bottom: 10px; left: 10px; z-index: 10;
       background: #f5c518; color: #000;
       font-family: var(--mono); font-size: 9px; font-weight: 700;
       letter-spacing: .08em; padding: 3px 8px;
       border-radius: 2px; text-transform: uppercase;
       opacity: 0; transition: opacity .2s;
       pointer-events: none;
+    }
+    .poster-badge {
+      z-index: 10;
     }
     .film-card-link:hover .imdb-hover { opacity: 1; }
 
@@ -296,8 +299,8 @@
     <a href="https://www.imdb.com/title/tt32351597/" target="_blank" rel="noopener" class="film-card-link"><div class="film-card">
       <div class="film-poster">
         <img src="covers/03-agak-laen-menyala-pantiku.jpg" alt="Agak Laen: Menyala Pantiku!" loading="lazy" />
-        <div class="poster-badge highlight">10 Juta+ Penonton<div class="imdb-hover">↗ IMDb</div></div>
-      </div>
+        <div class="poster-badge highlight">10 Juta+ Penonton</div>
+      <div class="imdb-hover">↗ IMDb</div></div>
       <div class="film-info">
         <div class="film-meta"><div class="film-year">2025</div><div class="film-rating"><span class="star">★</span> 7.8</div></div>
         <div class="film-title">Agak Laen: Menyala Pantiku!</div>
@@ -329,8 +332,8 @@
     <a href="https://www.imdb.com/title/tt34761368/" target="_blank" rel="noopener" class="film-card-link"><div class="film-card">
       <div class="film-poster">
         <img src="covers/06-better-off-dead.jpg" alt="Better Off Dead" loading="lazy" />
-        <div class="poster-badge highlight">★ 7.7<div class="imdb-hover">↗ IMDb</div></div>
-      </div>
+        <div class="poster-badge highlight">★ 7.7</div>
+      <div class="imdb-hover">↗ IMDb</div></div>
       <div class="film-info">
         <div class="film-meta"><div class="film-year">2025</div><div class="film-rating"><span class="star">★</span> 7.7</div></div>
         <div class="film-title">Better Off Dead</div>
@@ -363,8 +366,8 @@
     <a href="https://www.imdb.com/title/tt28349451/" target="_blank" rel="noopener" class="film-card-link"><div class="film-card">
       <div class="film-poster">
         <img src="covers/09-the-shadow-strays.jpg" alt="The Shadow Strays" loading="lazy" />
-        <div class="poster-badge netflix">Netflix<div class="imdb-hover">↗ IMDb</div></div>
-      </div>
+        <div class="poster-badge netflix">Netflix</div>
+      <div class="imdb-hover">↗ IMDb</div></div>
       <div class="film-info">
         <div class="film-meta"><div class="film-year">2024</div><div class="film-rating"><span class="star">★</span> 6.5</div></div>
         <div class="film-title">The Shadow Strays</div>
@@ -375,7 +378,7 @@
 
     <a href="https://www.imdb.com/title/tt31109457/" target="_blank" rel="noopener" class="film-card-link"><div class="film-card">
       <div class="film-poster"><img src="covers/10-kang-mak.jpg" alt="Kang Mak" loading="lazy" />
-        <div class="poster-badge highlight">4,8 Juta Penonton<div class="imdb-hover">↗ IMDb</div></div></div>
+        <div class="poster-badge highlight">4,8 Juta Penonton</div><div class="imdb-hover">↗ IMDb</div></div>
       <div class="film-info">
         <div class="film-meta"><div class="film-year">2024</div><div class="film-rating"><span class="star">★</span> 6.4</div></div>
         <div class="film-title">Kang Mak</div>
@@ -387,8 +390,8 @@
     <a href="https://www.imdb.com/title/tt28856462/" target="_blank" rel="noopener" class="film-card-link"><div class="film-card">
       <div class="film-poster">
         <img src="covers/11-agak-laen.jpg" alt="Agak Laen" loading="lazy" />
-        <div class="poster-badge highlight">9,1 Juta Penonton<div class="imdb-hover">↗ IMDb</div></div>
-      </div>
+        <div class="poster-badge highlight">9,1 Juta Penonton</div>
+      <div class="imdb-hover">↗ IMDb</div></div>
       <div class="film-info">
         <div class="film-meta"><div class="film-year">2024</div><div class="film-rating"><span class="star">★</span> 7.6</div></div>
         <div class="film-title">Agak Laen</div>
